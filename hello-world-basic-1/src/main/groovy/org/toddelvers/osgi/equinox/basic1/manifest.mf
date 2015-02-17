@@ -1,20 +1,18 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Comment: 'Indicates that this bundle follows OSGi R4. (A value of 1 means OSGi R3 or below)'
-Bundle-Name: Basic Equinox Example
-Comment: 'A short human-readable name for the bundle'
-Bundle-SymbolicName: org.toddelvers.osgi.equinox.HelloWorld
-Comment: 'A unique non-localizable name for the bundle.
+Comment: Indicates that this bundle follows OSGi R4. (A value of 1 means OSGi R3 or below)
+Bundle-Name: Basic Equinox Example 1
+Comment: A short human-readable name for the bundle
+Bundle-SymbolicName: org.toddelvers.osgi.HelloWorld
+Comment: A unique non-localizable name for the bundle.
           This is the name you will use when referring to this bundle from another bundle
-          (on the Import-Package property in their manifest.mf file).'
+          (on the Import-Package property in their manifest.mf file).
 Bundle-Version: 1.0.0
 Comment: The version of this bundle
-Bundle-Activator: org.toddelvers.osgi.equinox.basic2.Activator
+Bundle-Activator: org.toddelvers.osgi.equinox.basic1.Activator
 Comment: The name of the optional listener class to be notified of bundle start & stop events
 Bundle-Vendor: CARFAX
 Comment: Human-readable description of the bundle vendor
-Bundle-Localization: plugin
-Comment: The location in the bundle where localization files can be found.
 Import-Package: org.osgi.framework
 Comment: This is where you specifiy the package(s) to import from the framework & from other bundles
 

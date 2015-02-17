@@ -21,7 +21,7 @@ public class Activator implements BundleActivator {
      */
     @Override
     public void start(BundleContext context) throws Exception {
-        System.out.println("Hello world!");
+        System.out.println("Activator: Hello world!");
     }
 
     /**
@@ -30,6 +30,6 @@ public class Activator implements BundleActivator {
      */
     @Override
     public void stop(BundleContext context) throws Exception {
-        System.out.println("Goodbye world!");
+        System.out.println("Activator: Goodbye world!");
     }
 }
